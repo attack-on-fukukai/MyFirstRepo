@@ -6,9 +6,14 @@ def sub(a, b):
     return a-b
 
 
+def mul(a, b):
+    return a*b
+
+
 def main():
-    print(f"{1}と{2}を足すと{add(1, 2)}です。")
-    print(f"{2}と{1}を引くと{sub(1, 2)}です。")
+    print(f"{1} + {2} = {add(1,2)}")
+    print(f"{2} - {1} = {sub(1,2)}")
+    print(f"{2} * {2} = {mul(2,2)}")
 
 
 if __name__ == '__main__':
